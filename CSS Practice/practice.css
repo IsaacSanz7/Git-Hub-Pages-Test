@@ -1,0 +1,97 @@
+h1{
+    color: royalblue;
+}
+div{
+    color: slategray;
+}
+hr{
+    border-top: 1px solid red;
+}
+ul{
+    border: solid 3px royalblue
+}
+hr{
+    border: solid 1px royalblue
+}
+a[href="google.com"]{
+    color: red;
+}
+li::first-letter{
+    font-size:2em;
+    font-family: fantasy;
+}
+li a::after{
+    content:".com"
+}
+a:hover{
+    text-decoration: none;
+}
+a[href="google.com"]:visited{
+    color: red;
+}
+a[href="Wikepidia.com"]{
+    color:grey;
+}
+li::first-letter{
+    font-size:2em;
+    font-family: fantasy;
+}
+li a::after{
+    content:".com"
+}
+a:hover{
+    text-decoration: none;
+}
+a[href="Wikepidia.com"]:visited{
+    color: grey;
+}
+a[href="W3schools.com"]{
+    color:limegreen;
+}
+li::first-letter{
+    font-size:2em;
+    font-family: fantasy;
+}
+li a::after{
+    content:".com"
+}
+a:hover{
+    text-decoration: none;
+}
+a[href="W3schools.com"]:visited{
+    color:limegreen;
+}
+a[href="Mdn.com"]{
+    color: lightblue;
+}
+li::first-letter{
+    font-size:2em;
+    font-family: fantasy;
+}
+li a::after{
+    content:".com"
+}
+a:hover{
+    text-decoration: none;
+}
+a[href="Mdn.com"]:visited{
+    color:lightblue;
+}
+a[href="github.com"]{
+    color:green;
+}
+li::first-letter{
+    font-size:2em;
+    font-family: fantasy;
+}
+li a::after{
+    content:".com"
+}
+a:hover{
+    text-decoration: none;
+}
+a[href="github.com"]:visited{
+    color:green;
+}
+
+

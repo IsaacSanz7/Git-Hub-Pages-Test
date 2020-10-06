@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html> 
 <head>
     <meta charset="UTF-8">
     <meta name= "author" content= "Isaac Sanchez">
@@ -27,5 +27,54 @@
             <li>Close-Toes shoes</li>
             <li></li>
         </ul>
+
+<form> action="data.json" method= "POST"
+<fieldset>
+    <legend>Medical Questionare</legend>
+<p>
+<label for="name:">Write your first and last name:</label>
+<input type="text" id="name" name="user.name">
+</p>
+
+
+<p>
+<label for="Medhist">Please fill in your medical history</label><br>
+<textarea name="user.hist" id="MedHist" cols="30" rows="10">Type here</textarea>
+
+</p>
+
+<P>
+<button type="submit">Submit your Medical Questionare</button>
+<input disabled type="reset" Value="reset">
+</P>
+
+</form>
+<p>
+    <label for "images">Please upload a picture</label>
+<input type="file" id="Images" name="user.face" accept=".jpeg, .jpeg"/>
+</p>
+
+<form>
+<p>
+<label for="Symptom4">
+<input type="checkbox" name="Symptom4" id="Symptom4">drymouth
+
+</label>
+</p>
+</form>
+
+
+Password: <input type="password" value="FakePSW" id="myInput">
+
+<label for="age"><br>
+<input type="Radio" id="age" name="user.isYouth">0-12
+<label for="age"><br>
+    <input type="Radio" id="age" name="user.isYouth">13-20
+    <label for="age"><br>
+        <input type="Radio" id="age" name="user.isYouth">21+<br>
+
+</label>
+
+</fieldset>
     </body>
 </html>
